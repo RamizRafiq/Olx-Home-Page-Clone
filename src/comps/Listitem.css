@@ -1,0 +1,63 @@
+.add-Item{
+    min-width:270px ;
+    min-height: 270px;
+   max-width: 270px;
+   max-height: 270px;
+    
+    flex-basis: 20%;
+    display: flex;
+    /* top: 140px; */
+    /* padding: 8px; */
+    border: 1px solid #ddd;
+    flex-direction: column;
+}
+.card_data{
+    border-left: 4px solid yellow;
+    height: 106px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* -left: 20px; */
+    /* margin-right: 20px; */
+}
+.card_data .price_tag{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+
+    height: 25px;
+width: 75%;
+}
+
+.add-Item .poster{
+/* width: 50px; */
+height: 160px;
+margin: 8px;
+padding: 8px;
+}
+.add-Item .poster img{
+
+    width: 100%;
+}
+
+
+.locationDate{
+    height: 10%;
+display: flex;
+/* : 0 auto; */
+/* padding-left: 20px; */
+}
+.location{
+    
+    width: 75%;
+    color: rgb(155, 155, 155);
+}
+.date{
+    color: rgb(155, 155, 155);
+    width: 25%;
+}
+.card_data .tagline{
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+width: 90%;
+height: 20px;
+}
